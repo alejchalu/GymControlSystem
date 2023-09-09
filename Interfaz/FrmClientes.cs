@@ -13,6 +13,8 @@ namespace Interfaz
         public FrmClientes()
         {
             InitializeComponent();
+
+            DtFechaIngreso.Value = DateTime.Now;
         }
         #region Variables
         private ClsClientes C = new ClsClientes();

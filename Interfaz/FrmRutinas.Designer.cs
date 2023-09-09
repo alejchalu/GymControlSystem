@@ -115,8 +115,9 @@ namespace Interfaz
             // DtBuscar
             // 
             this.DtBuscar.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.DtBuscar.CustomFormat = "dd/MM/yyyy";
             this.DtBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DtBuscar.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.DtBuscar.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.DtBuscar.Location = new System.Drawing.Point(442, 187);
             this.DtBuscar.Name = "DtBuscar";
             this.DtBuscar.Size = new System.Drawing.Size(88, 23);
@@ -283,9 +284,9 @@ namespace Interfaz
             this.tableLayoutPanel1.ColumnCount = 5;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 40.64171F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 59.35829F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 100F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 114F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 112F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 105F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 103F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 110F));
             this.tableLayoutPanel1.Controls.Add(this.RtxtTrabajo2Mujeres, 3, 1);
             this.tableLayoutPanel1.Controls.Add(this.RtxtTrabajo2Hombres, 3, 2);
             this.tableLayoutPanel1.Controls.Add(this.RtxtTrabajo1Mujeres, 2, 1);
@@ -313,9 +314,9 @@ namespace Interfaz
             // 
             this.RtxtTrabajo2Mujeres.Dock = System.Windows.Forms.DockStyle.Fill;
             this.RtxtTrabajo2Mujeres.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RtxtTrabajo2Mujeres.Location = new System.Drawing.Point(282, 24);
+            this.RtxtTrabajo2Mujeres.Location = new System.Drawing.Point(295, 24);
             this.RtxtTrabajo2Mujeres.Name = "RtxtTrabajo2Mujeres";
-            this.RtxtTrabajo2Mujeres.Size = new System.Drawing.Size(108, 103);
+            this.RtxtTrabajo2Mujeres.Size = new System.Drawing.Size(97, 103);
             this.RtxtTrabajo2Mujeres.TabIndex = 4;
             this.RtxtTrabajo2Mujeres.Text = "";
             // 
@@ -323,9 +324,9 @@ namespace Interfaz
             // 
             this.RtxtTrabajo2Hombres.Dock = System.Windows.Forms.DockStyle.Fill;
             this.RtxtTrabajo2Hombres.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RtxtTrabajo2Hombres.Location = new System.Drawing.Point(282, 134);
+            this.RtxtTrabajo2Hombres.Location = new System.Drawing.Point(295, 134);
             this.RtxtTrabajo2Hombres.Name = "RtxtTrabajo2Hombres";
-            this.RtxtTrabajo2Hombres.Size = new System.Drawing.Size(108, 92);
+            this.RtxtTrabajo2Hombres.Size = new System.Drawing.Size(97, 92);
             this.RtxtTrabajo2Hombres.TabIndex = 5;
             this.RtxtTrabajo2Hombres.Text = "";
             // 
@@ -333,9 +334,9 @@ namespace Interfaz
             // 
             this.RtxtTrabajo1Mujeres.Dock = System.Windows.Forms.DockStyle.Fill;
             this.RtxtTrabajo1Mujeres.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RtxtTrabajo1Mujeres.Location = new System.Drawing.Point(181, 24);
+            this.RtxtTrabajo1Mujeres.Location = new System.Drawing.Point(189, 24);
             this.RtxtTrabajo1Mujeres.Name = "RtxtTrabajo1Mujeres";
-            this.RtxtTrabajo1Mujeres.Size = new System.Drawing.Size(94, 103);
+            this.RtxtTrabajo1Mujeres.Size = new System.Drawing.Size(99, 103);
             this.RtxtTrabajo1Mujeres.TabIndex = 2;
             this.RtxtTrabajo1Mujeres.Text = "";
             // 
@@ -343,9 +344,9 @@ namespace Interfaz
             // 
             this.RtxtTrabajo1Hombres.Dock = System.Windows.Forms.DockStyle.Fill;
             this.RtxtTrabajo1Hombres.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RtxtTrabajo1Hombres.Location = new System.Drawing.Point(181, 134);
+            this.RtxtTrabajo1Hombres.Location = new System.Drawing.Point(189, 134);
             this.RtxtTrabajo1Hombres.Name = "RtxtTrabajo1Hombres";
-            this.RtxtTrabajo1Hombres.Size = new System.Drawing.Size(94, 92);
+            this.RtxtTrabajo1Hombres.Size = new System.Drawing.Size(99, 92);
             this.RtxtTrabajo1Hombres.TabIndex = 3;
             this.RtxtTrabajo1Hombres.Text = "";
             // 
@@ -353,9 +354,9 @@ namespace Interfaz
             // 
             this.RtxtCalentaMujeres.Dock = System.Windows.Forms.DockStyle.Fill;
             this.RtxtCalentaMujeres.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RtxtCalentaMujeres.Location = new System.Drawing.Point(76, 24);
+            this.RtxtCalentaMujeres.Location = new System.Drawing.Point(79, 24);
             this.RtxtCalentaMujeres.Name = "RtxtCalentaMujeres";
-            this.RtxtCalentaMujeres.Size = new System.Drawing.Size(98, 103);
+            this.RtxtCalentaMujeres.Size = new System.Drawing.Size(103, 103);
             this.RtxtCalentaMujeres.TabIndex = 0;
             this.RtxtCalentaMujeres.Text = "";
             // 
@@ -363,9 +364,9 @@ namespace Interfaz
             // 
             this.RtxtCalentaHombres.Dock = System.Windows.Forms.DockStyle.Fill;
             this.RtxtCalentaHombres.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RtxtCalentaHombres.Location = new System.Drawing.Point(76, 134);
+            this.RtxtCalentaHombres.Location = new System.Drawing.Point(79, 134);
             this.RtxtCalentaHombres.Name = "RtxtCalentaHombres";
-            this.RtxtCalentaHombres.Size = new System.Drawing.Size(98, 92);
+            this.RtxtCalentaHombres.Size = new System.Drawing.Size(103, 92);
             this.RtxtCalentaHombres.TabIndex = 1;
             this.RtxtCalentaHombres.Text = "";
             // 
@@ -377,7 +378,7 @@ namespace Interfaz
             this.label5.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label5.Location = new System.Drawing.Point(4, 21);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(65, 109);
+            this.label5.Size = new System.Drawing.Size(68, 109);
             this.label5.TabIndex = 6;
             this.label5.Text = "Mujeres";
             // 
@@ -389,7 +390,7 @@ namespace Interfaz
             this.label6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label6.Location = new System.Drawing.Point(4, 131);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(65, 98);
+            this.label6.Size = new System.Drawing.Size(68, 98);
             this.label6.TabIndex = 7;
             this.label6.Text = "Hombres";
             // 
@@ -399,9 +400,9 @@ namespace Interfaz
             this.label9.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label9.Location = new System.Drawing.Point(397, 1);
+            this.label9.Location = new System.Drawing.Point(399, 1);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(107, 19);
+            this.label9.Size = new System.Drawing.Size(105, 19);
             this.label9.TabIndex = 10;
             this.label9.Text = "Trabajo #3";
             // 
@@ -411,9 +412,9 @@ namespace Interfaz
             this.label8.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label8.Location = new System.Drawing.Point(282, 1);
+            this.label8.Location = new System.Drawing.Point(295, 1);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(108, 19);
+            this.label8.Size = new System.Drawing.Size(97, 19);
             this.label8.TabIndex = 9;
             this.label8.Text = "Trabajo #2";
             // 
@@ -423,9 +424,9 @@ namespace Interfaz
             this.label7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label7.Location = new System.Drawing.Point(181, 1);
+            this.label7.Location = new System.Drawing.Point(189, 1);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(94, 19);
+            this.label7.Size = new System.Drawing.Size(99, 19);
             this.label7.TabIndex = 8;
             this.label7.Text = "Trabajo #1";
             // 
@@ -435,9 +436,9 @@ namespace Interfaz
             this.label10.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label10.Location = new System.Drawing.Point(76, 1);
+            this.label10.Location = new System.Drawing.Point(79, 1);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(98, 19);
+            this.label10.Size = new System.Drawing.Size(103, 19);
             this.label10.TabIndex = 11;
             this.label10.Text = "Calentamiento";
             // 
@@ -445,9 +446,9 @@ namespace Interfaz
             // 
             this.RtxtTrabajo3Mujeres.Dock = System.Windows.Forms.DockStyle.Fill;
             this.RtxtTrabajo3Mujeres.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RtxtTrabajo3Mujeres.Location = new System.Drawing.Point(397, 24);
+            this.RtxtTrabajo3Mujeres.Location = new System.Drawing.Point(399, 24);
             this.RtxtTrabajo3Mujeres.Name = "RtxtTrabajo3Mujeres";
-            this.RtxtTrabajo3Mujeres.Size = new System.Drawing.Size(107, 103);
+            this.RtxtTrabajo3Mujeres.Size = new System.Drawing.Size(105, 103);
             this.RtxtTrabajo3Mujeres.TabIndex = 12;
             this.RtxtTrabajo3Mujeres.Text = "";
             // 
@@ -455,9 +456,9 @@ namespace Interfaz
             // 
             this.RtxtTrabajo3Hombres.Dock = System.Windows.Forms.DockStyle.Fill;
             this.RtxtTrabajo3Hombres.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RtxtTrabajo3Hombres.Location = new System.Drawing.Point(397, 134);
+            this.RtxtTrabajo3Hombres.Location = new System.Drawing.Point(399, 134);
             this.RtxtTrabajo3Hombres.Name = "RtxtTrabajo3Hombres";
-            this.RtxtTrabajo3Hombres.Size = new System.Drawing.Size(107, 92);
+            this.RtxtTrabajo3Hombres.Size = new System.Drawing.Size(105, 92);
             this.RtxtTrabajo3Hombres.TabIndex = 13;
             this.RtxtTrabajo3Hombres.Text = "";
             // 

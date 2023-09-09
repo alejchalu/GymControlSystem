@@ -15,6 +15,8 @@ namespace Interfaz
         public FrmRutinas()
         {
             InitializeComponent();
+            DtFecha.Value = DateTime.Now;
+            DtBuscar.Value = DateTime.Now;
         }
 
         #region Variables

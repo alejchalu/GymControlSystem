@@ -13,6 +13,9 @@ namespace Interfaz
         public FrmIngresosGastos()
         {
             InitializeComponent();
+
+            DtFecha.Value = DateTime.Now;
+            DtBuscar.Value = DateTime.Now;
         }
         #region Variables
         private ClsIngresosGastos IG = new ClsIngresosGastos();

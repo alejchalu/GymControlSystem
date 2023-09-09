@@ -60,19 +60,19 @@
             this.RvVerReportes.Location = new System.Drawing.Point(0, 0);
             this.RvVerReportes.Name = "RvVerReportes";
             this.RvVerReportes.ServerReport.BearerToken = null;
-            this.RvVerReportes.Size = new System.Drawing.Size(768, 572);
+            this.RvVerReportes.Size = new System.Drawing.Size(906, 390);
             this.RvVerReportes.TabIndex = 0;
             // 
             // FrmGenerarReportes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(768, 572);
+            this.ClientSize = new System.Drawing.Size(906, 390);
             this.Controls.Add(this.RvVerReportes);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmGenerarReportes";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "GenerarReportes";
+            this.Text = "Reporte";
             this.Load += new System.EventHandler(this.GenerarReportes_Load);
             ((System.ComponentModel.ISupportInitialize)(this.mantaFitnessClubDataSetBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.mantaFitnessClubDataSet)).EndInit();

@@ -67,7 +67,9 @@ namespace Interfaz
             this.GcIngresosGastos.Dock = System.Windows.Forms.DockStyle.Top;
             this.GcIngresosGastos.GridColor = System.Drawing.Color.Black;
             this.GcIngresosGastos.Location = new System.Drawing.Point(1, 1);
+            this.GcIngresosGastos.MultiSelect = false;
             this.GcIngresosGastos.Name = "GcIngresosGastos";
+            this.GcIngresosGastos.ReadOnly = true;
             this.GcIngresosGastos.RowTemplate.Height = 25;
             this.GcIngresosGastos.Size = new System.Drawing.Size(870, 149);
             this.GcIngresosGastos.TabIndex = 0;
@@ -136,8 +138,9 @@ namespace Interfaz
             // DtBuscar
             // 
             this.DtBuscar.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.DtBuscar.CustomFormat = "dd/MM/yyyy";
             this.DtBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DtBuscar.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.DtBuscar.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.DtBuscar.Location = new System.Drawing.Point(401, 171);
             this.DtBuscar.Name = "DtBuscar";
             this.DtBuscar.Size = new System.Drawing.Size(113, 23);

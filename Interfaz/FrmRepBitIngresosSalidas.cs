@@ -17,6 +17,9 @@ namespace WindowsFormsApp1
         public FrmRepBitIngresosSalidas()
         {
             InitializeComponent();
+
+            DtFechaDesde.Value = DateTime.Now.AddDays(-1);
+            DtFechaHasta.Value = DateTime.Now; 
         }
 
         #region Variables

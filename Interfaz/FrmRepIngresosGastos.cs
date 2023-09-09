@@ -17,6 +17,9 @@ namespace WindowsFormsApp1
         public FrmRepIngresosGastos()
         {
             InitializeComponent();
+
+            DtFechaDesde.Value = DateTime.Now.AddDays(-1);
+            DtFechaHasta.Value = DateTime.Now;
         }
         #region Variables
         private ClsFormaPago FP = new ClsFormaPago();

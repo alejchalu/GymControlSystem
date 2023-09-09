@@ -17,6 +17,7 @@ namespace Interfaz
         public FrmMensualidades()
         {
             InitializeComponent();
+            DtFecha.Value = DateTime.Now;
         }
         #region Variables
         private ClsMensualidades M = new ClsMensualidades();
@@ -117,8 +118,7 @@ namespace Interfaz
             M._IDFormaPago = Convert.ToInt32(CbFormaPago.SelectedValue);
 
             IG._Monto = NuMonto.Value;
-            IG._Descripcion = "Pago mensualidad del cliente: "
-                + CbCliente.SelectedValue.ToString() +" "+ CbCliente.Text;
+            IG._Descripcion = "Pago mensualidad del cliente: " + CbCliente.Text;
             IG._Fecha = DtFecha.Value;
             IG._Tipo = true;
             IG._IDUsuario = ClsGeneral.IDUsuario;

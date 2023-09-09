@@ -6,21 +6,21 @@
         <TablixBody>
           <TablixColumns>
             <TablixColumn>
-              <Width>3.30698cm</Width>
+              <Width>5.78533cm</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>3.30698cm</Width>
+              <Width>5.78533cm</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>3.30698cm</Width>
+              <Width>5.78533cm</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>3.30698cm</Width>
+              <Width>5.78533cm</Width>
             </TablixColumn>
           </TablixColumns>
           <TablixRows>
             <TablixRow>
-              <Height>0.6926cm</Height>
+              <Height>1.05212cm</Height>
               <TablixCells>
                 <TablixCell>
                   <CellContents>
@@ -165,7 +165,7 @@
               </TablixCells>
             </TablixRow>
             <TablixRow>
-              <Height>1.27469cm</Height>
+              <Height>3.80379cm</Height>
               <TablixCells>
                 <TablixCell>
                   <CellContents>
@@ -318,10 +318,9 @@
           </TablixMembers>
         </TablixRowHierarchy>
         <DataSetName>DataSet</DataSetName>
-        <Top>0.97578cm</Top>
-        <Left>1.82245cm</Left>
-        <Height>1.96729cm</Height>
-        <Width>13.22792cm</Width>
+        <Top>0.17639cm</Top>
+        <Height>4.85591cm</Height>
+        <Width>23.14133cm</Width>
         <Style>
           <Border>
             <Style>None</Style>
@@ -329,13 +328,13 @@
         </Style>
       </Tablix>
     </ReportItems>
-    <Height>2in</Height>
+    <Height>2.08192in</Height>
     <Style />
   </Body>
-  <Width>6.57675in</Width>
+  <Width>9.17335in</Width>
   <Page>
     <PageHeader>
-      <Height>2.54cm</Height>
+      <Height>2.69063cm</Height>
       <PrintOnFirstPage>true</PrintOnFirstPage>
       <PrintOnLastPage>true</PrintOnLastPage>
       <ReportItems>
@@ -343,7 +342,7 @@
           <Source>Embedded</Source>
           <Value>Logo3</Value>
           <Sizing>FitProportional</Sizing>
-          <Height>2.31979cm</Height>
+          <Height>2.37313cm</Height>
           <Width>5.85208cm</Width>
           <Style>
             <Border>
@@ -358,21 +357,39 @@
             <Paragraph>
               <TextRuns>
                 <TextRun>
+                  <Value />
+                  <Style>
+                    <FontSize>16pt</FontSize>
+                    <FontWeight>Bold</FontWeight>
+                    <TextDecoration>Underline</TextDecoration>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style>
+                <TextAlign>Center</TextAlign>
+              </Style>
+            </Paragraph>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
                   <Value>Reporte para bitácora de movimientos</Value>
                   <Style>
                     <FontSize>16pt</FontSize>
                     <FontWeight>Bold</FontWeight>
+                    <TextDecoration>Underline</TextDecoration>
                   </Style>
                 </TextRun>
               </TextRuns>
-              <Style />
+              <Style>
+                <TextAlign>Center</TextAlign>
+              </Style>
             </Paragraph>
           </Paragraphs>
           <rd:DefaultName>Textbox1</rd:DefaultName>
-          <Top>0.42761cm</Top>
-          <Left>6.37243cm</Left>
-          <Height>1.52604cm</Height>
-          <Width>7.04195cm</Width>
+          <Top>0.00952cm</Top>
+          <Left>5.88736cm</Left>
+          <Height>2.37313cm</Height>
+          <Width>17.32543cm</Width>
           <ZIndex>1</ZIndex>
           <Style>
             <Border>
@@ -392,7 +409,7 @@
       </Style>
     </PageHeader>
     <PageFooter>
-      <Height>2.54cm</Height>
+      <Height>0.9489cm</Height>
       <PrintOnFirstPage>true</PrintOnFirstPage>
       <PrintOnLastPage>true</PrintOnLastPage>
       <ReportItems>
@@ -411,8 +428,8 @@
             </Paragraph>
           </Paragraphs>
           <rd:DefaultName>PageNumber</rd:DefaultName>
-          <Top>1.94cm</Top>
-          <Left>14.20495cm</Left>
+          <Top>0.17639cm</Top>
+          <Left>20.71279cm</Left>
           <Height>0.6cm</Height>
           <Width>2.5cm</Width>
           <Style>

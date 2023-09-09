@@ -6,24 +6,24 @@
         <TablixBody>
           <TablixColumns>
             <TablixColumn>
-              <Width>3.42604cm</Width>
+              <Width>4.95829cm</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>2.79104cm</Width>
+              <Width>4.32329cm</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>3.92875cm</Width>
+              <Width>5.461cm</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>2.5cm</Width>
+              <Width>4.03225cm</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>2.87042cm</Width>
+              <Width>4.40267cm</Width>
             </TablixColumn>
           </TablixColumns>
           <TablixRows>
             <TablixRow>
-              <Height>0.6cm</Height>
+              <Height>0.91984cm</Height>
               <TablixCells>
                 <TablixCell>
                   <CellContents>
@@ -203,7 +203,7 @@
               </TablixCells>
             </TablixRow>
             <TablixRow>
-              <Height>0.6cm</Height>
+              <Height>3.92726cm</Height>
               <TablixCells>
                 <TablixCell>
                   <CellContents>
@@ -218,7 +218,9 @@
                               <Style />
                             </TextRun>
                           </TextRuns>
-                          <Style />
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
                         </Paragraph>
                       </Paragraphs>
                       <rd:DefaultName>Nombre</rd:DefaultName>
@@ -248,7 +250,9 @@
                               <Style />
                             </TextRun>
                           </TextRuns>
-                          <Style />
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
                         </Paragraph>
                       </Paragraphs>
                       <rd:DefaultName>Fecha</rd:DefaultName>
@@ -278,7 +282,9 @@
                               <Style />
                             </TextRun>
                           </TextRuns>
-                          <Style />
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
                         </Paragraph>
                       </Paragraphs>
                       <rd:DefaultName>FechaVencimiento</rd:DefaultName>
@@ -308,7 +314,9 @@
                               <Style />
                             </TextRun>
                           </TextRuns>
-                          <Style />
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
                         </Paragraph>
                       </Paragraphs>
                       <rd:DefaultName>Monto</rd:DefaultName>
@@ -338,7 +346,9 @@
                               <Style />
                             </TextRun>
                           </TextRuns>
-                          <Style />
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
                         </Paragraph>
                       </Paragraphs>
                       <rd:DefaultName>FormaPago</rd:DefaultName>
@@ -379,10 +389,9 @@
           </TablixMembers>
         </TablixRowHierarchy>
         <DataSetName>DataSet</DataSetName>
-        <Top>0.57326cm</Top>
-        <Left>0.20583cm</Left>
-        <Height>1.2cm</Height>
-        <Width>15.51625cm</Width>
+        <Top>0.17639cm</Top>
+        <Height>4.8471cm</Height>
+        <Width>23.1775cm</Width>
         <Style>
           <Border>
             <Style>None</Style>
@@ -390,13 +399,13 @@
         </Style>
       </Tablix>
     </ReportItems>
-    <Height>2in</Height>
+    <Height>2.08192in</Height>
     <Style />
   </Body>
-  <Width>6.31922in</Width>
+  <Width>9.1781in</Width>
   <Page>
     <PageHeader>
-      <Height>4.04812cm</Height>
+      <Height>2.69063cm</Height>
       <PrintOnFirstPage>true</PrintOnFirstPage>
       <PrintOnLastPage>true</PrintOnLastPage>
       <ReportItems>
@@ -407,21 +416,38 @@
             <Paragraph>
               <TextRuns>
                 <TextRun>
+                  <Value />
+                  <Style>
+                    <FontSize>16pt</FontSize>
+                    <FontWeight>Bold</FontWeight>
+                    <TextDecoration>Underline</TextDecoration>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style>
+                <TextAlign>Center</TextAlign>
+              </Style>
+            </Paragraph>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
                   <Value>Reporte de mensualidades</Value>
                   <Style>
                     <FontSize>16pt</FontSize>
                     <FontWeight>Bold</FontWeight>
+                    <TextDecoration>Underline</TextDecoration>
                   </Style>
                 </TextRun>
               </TextRuns>
-              <Style />
+              <Style>
+                <TextAlign>Center</TextAlign>
+              </Style>
             </Paragraph>
           </Paragraphs>
           <rd:DefaultName>Textbox1</rd:DefaultName>
-          <Top>0.8774cm</Top>
-          <Left>6.42292cm</Left>
-          <Height>0.78521cm</Height>
-          <Width>7.47416cm</Width>
+          <Left>5.85208cm</Left>
+          <Height>2.37313cm</Height>
+          <Width>17.32543cm</Width>
           <Style>
             <Border>
               <Style>None</Style>
@@ -436,7 +462,7 @@
           <Source>Embedded</Source>
           <Value>Logo3</Value>
           <Sizing>FitProportional</Sizing>
-          <Height>2.31979cm</Height>
+          <Height>2.37313cm</Height>
           <Width>5.85208cm</Width>
           <ZIndex>1</ZIndex>
           <Style>
@@ -453,7 +479,7 @@
       </Style>
     </PageHeader>
     <PageFooter>
-      <Height>0.82021cm</Height>
+      <Height>0.92244cm</Height>
       <PrintOnFirstPage>true</PrintOnFirstPage>
       <PrintOnLastPage>true</PrintOnLastPage>
       <ReportItems>
@@ -472,8 +498,8 @@
             </Paragraph>
           </Paragraphs>
           <rd:DefaultName>PageNumber</rd:DefaultName>
-          <Top>0.22021cm</Top>
-          <Left>13.55083cm</Left>
+          <Top>0.17639cm</Top>
+          <Left>20.67751cm</Left>
           <Height>0.6cm</Height>
           <Width>2.5cm</Width>
           <Style>

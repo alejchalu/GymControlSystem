@@ -16,6 +16,9 @@ namespace WindowsFormsApp1
         public FrmRepRutinas()
         {
             InitializeComponent();
+
+            DtFechaDesde.Value = DateTime.Now.AddDays(-1);
+            DtFechaHasta.Value = DateTime.Now;
         }
         #region Variables
         private const int CP_NOCLOSE_BUTTON = 0x200;

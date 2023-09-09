@@ -17,6 +17,9 @@ namespace WindowsFormsApp1
         public FrmRepBitMovimientos()
         {
             InitializeComponent();
+
+            DtFechaDesde.Value = DateTime.Now.AddDays(-1);
+            DtFechaHasta.Value = DateTime.Now;
         }
         #region Variables
         private ClsUsuarios U = new ClsUsuarios();

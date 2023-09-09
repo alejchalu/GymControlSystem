@@ -108,7 +108,7 @@
             this.panel1.Controls.Add(this.label6);
             this.panel1.Controls.Add(this.DtFechaDesde);
             this.panel1.Controls.Add(this.label2);
-            this.panel1.Location = new System.Drawing.Point(271, 112);
+            this.panel1.Location = new System.Drawing.Point(276, 85);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(366, 297);
             this.panel1.TabIndex = 47;
@@ -149,7 +149,7 @@
             // 
             this.BtnSalir.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.BtnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnSalir.Location = new System.Drawing.Point(401, 415);
+            this.BtnSalir.Location = new System.Drawing.Point(406, 388);
             this.BtnSalir.Name = "BtnSalir";
             this.BtnSalir.Size = new System.Drawing.Size(120, 58);
             this.BtnSalir.TabIndex = 48;

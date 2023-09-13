@@ -60,10 +60,10 @@ namespace WindowsFormsApp1
                     Datos1 = IG.ReporteTotales(FechaDesde, FechaHasta, IDFormaPago);
                     break;
                 case ClsGeneral.RptBitMovimientos:
-                    Datos = BM.Reporte(FechaDesde, FechaHasta);
+                    Datos = BM.Reporte(FechaDesde, FechaHasta, IDUsuario);
                     break;
                 case ClsGeneral.RptBitIngresosSalidas:
-                    Datos = BIS.Reporte(FechaDesde, FechaHasta);
+                    Datos = BIS.Reporte(FechaDesde, FechaHasta, IDUsuario);
                     break;
                 default:
                     break;

@@ -88,8 +88,15 @@ namespace WindowsFormsApp1
 
             CbFormaPago.DataSource = FP.ListarCombo();
             DataTable TablaFP = (DataTable)CbFormaPago.DataSource;
+            DataRow newRow = TablaFP.NewRow();
+            newRow["ID"] = 0;
+            newRow["FormaPago"] = "Todas";
+            TablaFP.Rows.InsertAt(newRow, 0);
+
             CbFormaPago.ValueMember = "ID";
             CbFormaPago.DisplayMember = "FormaPago";
+
+            CbFormaPago.SelectedIndex = 0;
         }
 
         private void BtnSalir_Click(object sender, EventArgs e)

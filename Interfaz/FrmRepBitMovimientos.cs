@@ -68,7 +68,8 @@ namespace WindowsFormsApp1
         #region Eventos
         private void BtnGenerar_Click(object sender, EventArgs e)
         {
-            FrmGenerarReportes RR = new FrmGenerarReportes(ClsGeneral.RptBitMovimientos, DtFechaDesde.Value, DtFechaHasta.Value);
+            int IDUsuario = Convert.ToInt32(CbUsuario.SelectedValue);
+            FrmGenerarReportes RR = new FrmGenerarReportes(ClsGeneral.RptBitMovimientos, DtFechaDesde.Value, DtFechaHasta.Value, IDUsuario);
             RR.ShowDialog();
         }
         private void FrmRepBitMovimientos_Load(object sender, EventArgs e)
@@ -85,8 +86,15 @@ namespace WindowsFormsApp1
 
             CbUsuario.DataSource = U.ListarCombo();
             DataTable Tabla = (DataTable)CbUsuario.DataSource;
+            DataRow newRow = Tabla.NewRow();
+            newRow["ID"] = 0;
+            newRow["Nombre"] = "Todos";
+            Tabla.Rows.InsertAt(newRow, 0);
+
             CbUsuario.ValueMember = "ID";
             CbUsuario.DisplayMember = "Nombre";
+
+            CbUsuario.SelectedIndex = 0;
         }
 
         private void BtnSalir_Click(object sender, EventArgs e)

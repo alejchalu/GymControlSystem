@@ -96,13 +96,27 @@ namespace WindowsFormsApp1
 
             CbCliente.DataSource = C.ListarCombo();
             DataTable Tabla = (DataTable)CbCliente.DataSource;
+            DataRow newRow = Tabla.NewRow();
+            newRow["ID"] = 0;
+            newRow["Nombre"] = "Todos";
+            Tabla.Rows.InsertAt(newRow, 0);
+
             CbCliente.ValueMember = "ID";
             CbCliente.DisplayMember = "Nombre";
 
+            CbCliente.SelectedIndex = 0;
+
             CbFormaPago.DataSource = FP.ListarCombo();
             DataTable TablaFP = (DataTable)CbFormaPago.DataSource;
+            DataRow newRowFP = TablaFP.NewRow();
+            newRowFP["ID"] = 0;
+            newRowFP["FormaPago"] = "Todas";
+            TablaFP.Rows.InsertAt(newRowFP, 0);
+
             CbFormaPago.ValueMember = "ID";
             CbFormaPago.DisplayMember = "FormaPago";
+
+            CbFormaPago.SelectedIndex = 0;
         }
         #endregion
     }

@@ -984,7 +984,7 @@ namespace BaseDatos
         #endregion
 
         #region Metodos ClsBitIngresosSalidas
-        public DataTable GenerarReporteBitIngresosSalidas(DateTime FechaDesde, DateTime FechaHasta)
+        public DataTable GenerarReporteBitIngresosSalidas(DateTime FechaDesde, DateTime FechaHasta, int IDUsuario)
         {
             try
             {
@@ -992,6 +992,7 @@ namespace BaseDatos
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.Parameters.AddWithValue("@FechaDesde", FechaDesde);
                 cmd.Parameters.AddWithValue("@FechaHasta", FechaHasta);
+                cmd.Parameters.AddWithValue("@IDUsuario", IDUsuario);
 
                 SqlDataAdapter adapter = new SqlDataAdapter();
                 adapter.SelectCommand = cmd;
@@ -1062,7 +1063,7 @@ namespace BaseDatos
         #endregion
 
         #region Metodos ClsBitMovimientos
-        public DataTable GenerarReporteBitMovimientos(DateTime FechaDesde, DateTime FechaHasta)
+        public DataTable GenerarReporteBitMovimientos(DateTime FechaDesde, DateTime FechaHasta, int IDUsuario)
         {
             try
             {
@@ -1070,6 +1071,7 @@ namespace BaseDatos
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.Parameters.AddWithValue("@FechaDesde", FechaDesde);
                 cmd.Parameters.AddWithValue("@FechaHasta", FechaHasta);
+                cmd.Parameters.AddWithValue("@IDUsuario", IDUsuario);
 
                 SqlDataAdapter adapter = new SqlDataAdapter();
                 adapter.SelectCommand = cmd;

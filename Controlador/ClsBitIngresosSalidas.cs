@@ -33,9 +33,9 @@ namespace Controlador
         #endregion
 
         #region Metodos
-        public DataTable Reporte(DateTime FechaDesde, DateTime FechaHasta)
+        public DataTable Reporte(DateTime FechaDesde, DateTime FechaHasta, int IDUsuario)
         {
-            return C.GenerarReporteBitIngresosSalidas(FechaDesde, FechaHasta);
+            return C.GenerarReporteBitIngresosSalidas(FechaDesde, FechaHasta, IDUsuario);
         }
         public DataTable Listar(int Usuario,DateTime FechaDesde, DateTime FechaHasta)
         {
